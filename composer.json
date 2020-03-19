@@ -1,12 +1,12 @@
 {
-  "name": "bestmomo/laravel5-artisan-language",
+  "name": "BaygonJaune/laravel5-artisan-language",
   "description": "Add artisan commands for language strings",
-  "homepage": "https://github.com/bestmomo/laravel-artisan-language",
+  "homepage": "https://github.com/BaygonJaune/laravel-artisan-language",
   "license": "MIT",
   "authors": [
     {
-      "name": "Bestmomo",
-      "email": "grandheretique@free.fr",
+      "name": "BaygonJaune",
+      "email": "vincent.ferrari@chezlesmonstres.net",
       "homepage":"http://laravel.sillo.org"
     }
   ],
@@ -16,13 +16,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Bestmomo\\ArtisanLanguage\\": "src/"
+      "BaygonJaune\\ArtisanLanguage\\": "src/"
     }
   },
   "extra": {
       "laravel": {
           "providers": [
-              "Bestmomo\\ArtisanLanguage\\ArtisanLanguageProvider"
+              "BaygonJaune\\ArtisanLanguage\\ArtisanLanguageProvider"
           ]
       }
   }
